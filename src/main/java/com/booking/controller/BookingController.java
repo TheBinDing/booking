@@ -41,4 +41,14 @@ public class BookingController {
     public ResponseEntity<Object> upgradeDiningTable(@RequestBody DiningTable diningTable) {
         return customerService.upgradeDiningTable(diningTable);
     }
+
+    // Booking
+
+    // create booking
+
+    // update dining_table
+
+    // update booking
+
+    // delete booking
 }

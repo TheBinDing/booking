@@ -1,4 +1,4 @@
-# docker run -d -p 5432:5432 --name postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=vendor-booking -d postgres
+# docker run -d -p 5432:5432 --name postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=booking -d postgres
 
 # CREATE TABLE public.booking (
 # 	book_id varchar NOT NULL,
@@ -38,3 +38,5 @@
 # 	update_by varchar NULL,
 # 	CONSTRAINT dining_table_pk PRIMARY KEY (din_code)
 # );
+
+# Run And Debug to Run API
