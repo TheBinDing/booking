@@ -1,3 +1,5 @@
+# docker run -d -p 5432:5432 --name postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=vendor-booking -d postgres
+
 # CREATE TABLE public.booking (
 # 	book_id varchar NOT NULL,
 # 	book_number varchar NULL,
